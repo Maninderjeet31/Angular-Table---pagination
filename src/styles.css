@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+	background: url("./assets/images/bg3.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	backdrop-filter: blur(8px);
+}
+
+footer {
+	display: flex;
+    flex-flow: column;
+    font-size: 20px;
+    font-family: initial;
+    font-weight: bold;
+	align-items: center;
+	background: #fff;
+	padding: 12px 12px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+  }
+
+app-coffee-list {
+	opacity: 1;
+}
+
+h2{
+	background: #fff;
+	opacity: 0.6;
+	padding: 30px 5px;
+	margin-top: 20px;
+}
